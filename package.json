@@ -1,0 +1,12 @@
+{
+  "name": "neetcode-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}
