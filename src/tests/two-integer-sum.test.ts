@@ -12,4 +12,10 @@ describe('two-integer-sum', () => {
     const result = twoIntegerSum(nums, 10)
     expect(result).toEqual(expect.arrayContaining([0, 2]))
   })
+
+  test('case 2', () => {
+    const nums = [5,3,1,1,1,3,73,1]
+    const result = twoIntegerSum(nums, 2)
+    expect(result).toEqual(expect.arrayContaining([1, 3]))
+  })
 })
