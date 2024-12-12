@@ -25,7 +25,7 @@ const testTemplate = `import { {{solution}} } from '../problems/{{fileName}}';
 describe('{{fileName}}', () => {
     test('case 1', () => {
         // TODO: Add test cases
-        expect({{solution}}()).toBeDefined();
+        expect({{solution}}()).toBe();
     });
 });`
 
