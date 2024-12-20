@@ -7,7 +7,10 @@
 - [x] 3. Two Sum
 - [x] 4. Group Anagrams
 - [x] 5. Top K Frequent Elements
-- [ ] 6. Encode and Decode Strings
-- [ ] 7. Product of Array Except Self
-- [ ] 8. Valid Sudoku
+- [x] 6. Encode and Decode Strings
+- [x] 7. Product of Array Except Self
+- [x] 8. Valid Sudoku
 - [x] 9. Longest Consecutive Sequence
+- [x] 10. Remove Duplicates from Sorted Array
+- [x] 11. Remove Element
+- [x] 12. Valid Parentheses
