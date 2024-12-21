@@ -14,3 +14,7 @@
 - [x] 10. Remove Duplicates from Sorted Array
 - [x] 11. Remove Element
 - [x] 12. Valid Parentheses
+
+### Linked List
+- [ ] 13. Reverse Linked List
+- [ ] 14. Merge Two Sorted Linked Lists
