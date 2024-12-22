@@ -17,8 +17,8 @@
 
 ### Linked List
 
-- [ ] 13. Reverse Linked List
-- [ ] 14. Merge Two Sorted Linked Lists
+- [x] 13. Reverse Linked List
+- [x] 14. Merge Two Sorted Linked Lists
 
 ### Sorting
 
