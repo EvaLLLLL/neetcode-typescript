@@ -16,5 +16,13 @@
 - [x] 12. Valid Parentheses
 
 ### Linked List
+
 - [ ] 13. Reverse Linked List
 - [ ] 14. Merge Two Sorted Linked Lists
+
+### Sorting
+
+- [x] 15. Insertion Sort
+- [ ] 16. Merge Sort
+- [ ] 17. Quick Sort
+- [ ] 18. Bucket Sort
