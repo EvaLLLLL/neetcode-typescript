@@ -30,4 +30,4 @@
 ### Binary Search
 
 - [x] 19. Binary Search
-- [ ] 20. Search a 2D Matrix
+- [x] 20. Search a 2D Matrix
