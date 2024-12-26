@@ -23,6 +23,6 @@
 ### Sorting
 
 - [x] 15. Insertion Sort
-- [ ] 16. Merge Sort
+- [x] 16. Merge Sort
 - [ ] 17. Quick Sort
-- [ ] 18. Bucket Sort
+- [x] 18. Sort Colors (Bucket Sort)
