@@ -26,3 +26,8 @@
 - [x] 16. Merge Sort
 - [ ] 17. Quick Sort
 - [x] 18. Sort Colors (Bucket Sort)
+
+### Binary Search
+
+- [x] 19. Binary Search
+- [ ] 20. Search a 2D Matrix
