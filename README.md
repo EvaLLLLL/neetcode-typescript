@@ -35,3 +35,5 @@
 ### Trees
 
 - [x] 21. Search In A Binary Search Tree
+- [x] 22. Insert into a Binary Search Tree
+- [x] 23. Delete Node in a BST
