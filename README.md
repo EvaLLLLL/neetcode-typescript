@@ -31,3 +31,7 @@
 
 - [x] 19. Binary Search
 - [x] 20. Search a 2D Matrix
+
+### Trees
+
+- [x] 21. Search In A Binary Search Tree
