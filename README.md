@@ -37,3 +37,6 @@
 - [x] 21. Search In A Binary Search Tree
 - [x] 22. Insert into a Binary Search Tree
 - [x] 23. Delete Node in a BST
+- [x] 24. Kth Smallest Element In a Bst
+- [x] 25. Binary Tree Level Order Traversal
+- [ ] 26. Binary Search Tree Map
