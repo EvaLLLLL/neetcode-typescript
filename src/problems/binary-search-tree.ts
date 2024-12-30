@@ -23,22 +23,31 @@ export class TreeMap {
   }
 
   insert(key: number, val: number) {
-    this.insertHelper(this.root, key, val)
-    console.log(this.root)
-  }
+    let newNode = new TreeNode(key, val)
+    if (!this.root) {
+      this.root = newNode
+      return
+    }
 
-  insertHelper(root: TreeNode | null, key: number, val: number) {
-    if (!root) {
-      root = new TreeNode(key, val)
-      return root
+    let curr = this.root
+    while (true) {
+      if (key < curr.key) {
+        if (!curr.left) {
+          curr.left = newNode
+          return
+        }
+        curr = curr.left
+      } else if (key > curr.key) {
+        if (!curr.right) {
+          curr.right = newNode
+          return
+        }
+        curr = curr.right
+      } else {
+        curr.val = val
+        return
+      }
     }
-    if (root.key > key) {
-      root.left = this.insertHelper(root.left, key, val)
-    }
-    if (root.key < key) {
-      root.right = this.insertHelper(root.right, key, val)
-    }
-    return root
   }
 
   get(key: number): number {
@@ -57,13 +66,9 @@ export class TreeMap {
   }
 
   getMin(): number {
-    let curr: TreeNode | null = this.root
+    let minNode = this.findMin(this.root)
 
-    while (curr && curr.left) {
-      curr = curr.left
-    }
-
-    return curr ? curr.val : -1
+    return minNode ? minNode.val : -1
   }
 
   getMax(): number {
@@ -77,40 +82,39 @@ export class TreeMap {
   }
 
   remove(key: number) {
-    if (!this.root) return
+    this.root = this.removeHelper(this.root, key)
+  }
 
-    function minValueNode(node: TreeNode): TreeNode {
-      let curr = node
-      while (node && node.left) {
-        curr = node.left
-      }
-      return curr
+  removeHelper(node: TreeNode | null, key: number): TreeNode | null {
+    if (!node) {
+      return null
     }
 
-    function helper(node: TreeNode | null, key: number): TreeNode | null {
-      if (!node) return null
-
-      if (key > node.val) {
-        node = helper(node.right, key)
-      } else if (key < node.val) {
-        node = helper(node.left, key)
+    if (key > node.key) {
+      node.right = this.removeHelper(node.right, key)
+    } else if (key < node.key) {
+      node.left = this.removeHelper(node.left, key)
+    } else {
+      if (!node.left) {
+        return node.right
+      } else if (!node.right) {
+        return node.left
       } else {
-        if (!node.left) {
-          node = node.right
-        } else if (!node.right) {
-          node = node.left
-        } else {
-          const minNode = minValueNode(node)
-          node.key = minNode.key
-          node.val = minNode.val
-          node.right = helper(node, minNode.key)
-        }
+        const minNode = this.findMin(node.right)!
+        node.key = minNode.key
+        node.val = minNode.val
+        node.right = this.removeHelper(node.right, minNode.key)
       }
-
-      return node
     }
 
-    helper(this.root, key)
+    return node
+  }
+
+  findMin(node: TreeNode | null): TreeNode | null {
+    while (node && node.left) {
+      node = node.left
+    }
+    return node
   }
 
   getInorderKeys(): number[] {
