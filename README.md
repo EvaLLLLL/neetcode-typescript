@@ -14,6 +14,7 @@
 - [x] Remove Duplicates from Sorted Array
 - [x] Remove Element
 - [x] Valid Parentheses
+- [x] 3Sum
 
 ### Linked List
 
