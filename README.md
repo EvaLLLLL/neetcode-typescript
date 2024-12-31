@@ -1,42 +1,62 @@
 ## neetcode.io typescript solutions
 
-### Arrays & Hashing
+### Arrays
 
-- [x] 1. Contains Duplicate
-- [x] 2. Valid Anagram
-- [x] 3. Two Sum
-- [x] 4. Group Anagrams
-- [x] 5. Top K Frequent Elements
-- [x] 6. Encode and Decode Strings
-- [x] 7. Product of Array Except Self
-- [x] 8. Valid Sudoku
-- [x] 9. Longest Consecutive Sequence
-- [x] 10. Remove Duplicates from Sorted Array
-- [x] 11. Remove Element
-- [x] 12. Valid Parentheses
+- [x] Contains Duplicate
+- [x] Valid Anagram
+- [x] Two Sum
+- [x] Group Anagrams
+- [x] Top K Frequent Elements
+- [x] Encode and Decode Strings
+- [x] Product of Array Except Self
+- [x] Valid Sudoku
+- [x] Longest Consecutive Sequence
+- [x] Remove Duplicates from Sorted Array
+- [x] Remove Element
+- [x] Valid Parentheses
 
 ### Linked List
 
-- [x] 13. Reverse Linked List
-- [x] 14. Merge Two Sorted Linked Lists
+- [x] Reverse Linked List
+- [x] Merge Two Sorted Linked Lists
+
+### Recursion
 
 ### Sorting
 
-- [x] 15. Insertion Sort
-- [x] 16. Merge Sort
-- [ ] 17. Quick Sort
-- [x] 18. Sort Colors (Bucket Sort)
+- [x] Insertion Sort
+- [x] Merge Sort
+- [ ] Quick Sort
+- [x] Sort Colors (Bucket Sort)
 
 ### Binary Search
 
-- [x] 19. Binary Search
-- [x] 20. Search a 2D Matrix
+- [x] Binary Search
+- [x] Search a 2D Matrix
 
 ### Trees
 
-- [x] 21. Search In A Binary Search Tree
-- [x] 22. Insert into a Binary Search Tree
-- [x] 23. Delete Node in a BST
-- [x] 24. Kth Smallest Element In a Bst
-- [x] 25. Binary Tree Level Order Traversal
-- [ ] 26. Binary Search Tree Map
+- [x] Search In A Binary Search Tree
+- [x] Insert into a Binary Search Tree
+- [x] Delete Node in a BST
+- [x] Kth Smallest Element In a Bst
+- [x] Binary Tree Level Order Traversal
+- [ ] Binary Search Tree Map
+
+### Backtracking
+
+### Heap / Priority Queue
+
+### Hashing
+
+- [ ] Design Hash Table
+
+### Graphs
+
+### Dynamic Programming
+
+### Bit Manipulation
+
+- [x] Number of One Bits
+- [x] Counting Bits
+- [x] Reverse Bits
