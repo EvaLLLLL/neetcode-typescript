@@ -16,7 +16,7 @@
 - [x] Valid Parentheses
 - [x] 3Sum
 - [x] Container With Most Water
-- [ ] Trapping Rain Water
+- [x] Trapping Rain Water
 
 ### Linked List
 
