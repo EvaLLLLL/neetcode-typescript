@@ -18,6 +18,20 @@
 - [x] Container With Most Water
 - [x] Trapping Rain Water
 
+### Stacks
+
+- [x] Evaluate Reverse Polish Notation
+- [x] Generate Parentheses
+- [ ] Daily Temperatures
+- [ ] Car Fleet
+- [ ] Largest Rectangle In Histogram
+
+### Backtracking
+
+- [x] Path Sum
+- [ ] Subsets
+- [ ] Combination Sum
+
 ### Linked List
 
 - [x] Reverse Linked List
