@@ -23,7 +23,7 @@
 - [x] Evaluate Reverse Polish Notation
 - [x] Generate Parentheses
 - [x] Daily Temperatures
-- [ ] Car Fleet
+- [x] Car Fleet
 - [ ] Largest Rectangle In Histogram
 
 ### Backtracking
