@@ -29,7 +29,8 @@
 ### Backtracking
 
 - [x] Path Sum
-- [ ] Subsets
+- [x] Subsets
+- [ ] Subsets II
 - [ ] Combination Sum
 
 ### Linked List
