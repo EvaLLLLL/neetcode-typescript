@@ -29,7 +29,7 @@ describe('{{fileName}}', () => {
     });
 });`
 
-function generateFiles(fileName: string) {
+function generateFiles(fileName: string, noTest: boolean) {
   if (!fileName) {
     console.error('Please provide a file name!')
     process.exit(1)
@@ -49,18 +49,22 @@ function generateFiles(fileName: string) {
   )
 
   fs.mkdirSync(path.dirname(problemPath), { recursive: true })
-  fs.mkdirSync(path.dirname(testPath), { recursive: true })
 
   const problemContent = problemTemplate.replace(/{{solution}}/g, solutionName)
   fs.writeFileSync(problemPath, problemContent)
   console.log(`✅ Created problem file: ${problemPath}`)
 
-  const testContent = testTemplate
-    .replace(/{{fileName}}/g, fileName)
-    .replace(/{{solution}}/g, solutionName)
-  fs.writeFileSync(testPath, testContent)
-  console.log(`✅ Created test file: ${testPath}`)
+  if (!noTest) {
+    fs.mkdirSync(path.dirname(testPath), { recursive: true })
+
+    const testContent = testTemplate
+      .replace(/{{fileName}}/g, fileName)
+      .replace(/{{solution}}/g, solutionName)
+    fs.writeFileSync(testPath, testContent)
+    console.log(`✅ Created test file: ${testPath}`)
+  }
 }
 
 const fileName = process.argv[2]
-generateFiles(fileName)
+const noTest = process.argv[3] === '--no-test'
+generateFiles(fileName, noTest)

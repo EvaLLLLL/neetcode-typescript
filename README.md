@@ -3,7 +3,6 @@
 ### Arrays
 
 - [x] Contains Duplicate
-- [x] Valid Anagram
 - [x] Two Sum
 - [x] Group Anagrams
 - [x] Top K Frequent Elements
@@ -13,32 +12,48 @@
 - [x] Longest Consecutive Sequence
 - [x] Remove Duplicates from Sorted Array
 - [x] Remove Element
-- [x] Valid Parentheses
+- [ ] Design Hash Table
+
+### Two Pointers
+
+- [x] Valid Anagram
+- [x] Two Integer Sum II
 - [x] 3Sum
 - [x] Container With Most Water
 - [x] Trapping Rain Water
 
 ### Stacks
 
+- [x] Valid Parentheses
+- [x] Min Stack
 - [x] Evaluate Reverse Polish Notation
 - [x] Generate Parentheses
 - [x] Daily Temperatures
 - [x] Car Fleet
 - [ ] Largest Rectangle In Histogram
 
-### Backtracking
+### Sliding Window
 
-- [x] Path Sum
-- [x] Subsets
-- [x] Subsets II
-- [ ] Combination Sum
+- [x] Best Time to Buy and Sell Stock
+- [ ] Longest Substring Without Repeating Characters
+- [ ] Longest Repeating Character Replacement
+- [ ] Permutation In String
+- [ ] Minimum Window Substring
+- [ ] Sliding Window Maximum
 
 ### Linked List
 
 - [x] Reverse Linked List
 - [x] Merge Two Sorted Linked Lists
-
-### Recursion
+- [ ] Linked List Cycle
+- [ ] Reorder List
+- [ ] Remove Nth Node From End of List
+- [ ] Copy List With Random Pointer
+- [ ] Add Two Numbers
+- [ ] Find The Duplicate Number
+- [ ] LRU Cache
+- [ ] Merge K Sorted Lists
+- [ ] Reverse Nodes In K Group
 
 ### Sorting
 
@@ -51,27 +66,71 @@
 
 - [x] Binary Search
 - [x] Search a 2D Matrix
+- [ ] Koko Eating Bananas
+- [ ] Find Minimum In Rotated Sorted Array
+- [ ] Search In Rotated Sorted Array
+- [ ] Time Based Key Value Store
+- [ ] Median of Two Sorted Arrays
 
 ### Trees
 
 - [x] Search In A Binary Search Tree
 - [x] Insert into a Binary Search Tree
 - [x] Delete Node in a BST
-- [x] Kth Smallest Element In a Bst
-- [x] Binary Tree Level Order Traversal
 - [ ] Binary Search Tree Map
+- [ ] Invert Binary Tree
+- [ ] Maximum Depth of Binary Tree
+- [ ] Diameter of Binary Tree
+- [ ] Balanced Binary Tree
+- [ ] Same Tree
+- [ ] Subtree of Another Tree
+- [ ] Lowest Common Ancestor of a Binary Search Tree
+- [x] Binary Tree Level Order Traversal
+- [ ] Binary Tree Right Side View
+- [ ] Count Good Nodes In Binary Tree
+- [ ] Validate Binary Search Tree
+- [x] Kth Smallest Element In a Bst
+- [ ] Construct Binary Tree From Preorder And Inorder Traversal
+- [ ] Binary Tree Maximum Path Sum
+- [ ] Serialize And Deserialize Binary Tree
 
 ### Backtracking
 
+- [x] Path Sum
+- [x] Subsets
+- [ ] Combination Sum
+- [ ] Combination Sum II
+- [ ] Permutations
+- [x] Subsets II
+- [ ] Word Search
+- [ ] Palindrome Partitioning
+- [ ] Letter Combinations of a Phone Number
+- [ ] N Queens
+
+### Tries
+
+- [ ] Implement Trie Prefix Tree
+- [ ] Design Add And Search Words Data Structure
+- [ ] Word Search II
+
 ### Heap / Priority Queue
 
-### Hashing
+- [ ] Kth Largest Element in a Stream
+- [ ] Last Stone Weight
+- [ ] K Closest Points to Origin
+- [ ] Kth Largest Element In An Array
+- [ ] Task Scheduler
+- [ ] Design Twitter
+- [ ] Find Median From Data Stream
 
-- [ ] Design Hash Table
+### Dynamic Programming
+
+- [x] Climbing Stairs
+- [ ] Min Cost Climbing Stairs
 
 ### Graphs
 
-### Dynamic Programming
+- [ ] Number of Islands
 
 ### Bit Manipulation
 
