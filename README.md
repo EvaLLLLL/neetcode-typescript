@@ -98,7 +98,7 @@
 
 - [x] Path Sum
 - [x] Subsets
-- [ ] Combinations
+- [x] Combinations
 - [ ] Combination Sum
 - [ ] Combination Sum II
 - [ ] Permutations
