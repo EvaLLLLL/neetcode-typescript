@@ -59,7 +59,7 @@
 
 - [x] Insertion Sort
 - [x] Merge Sort
-- [ ] Quick Sort
+- [x] Quick Sort
 - [x] Sort Colors (Bucket Sort)
 
 ### Binary Search
