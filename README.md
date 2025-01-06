@@ -131,6 +131,9 @@
 
 ### Graphs
 
+- [x] Matrix DFS
+- [ ] Matrix BFS
+- [ ] Adjacency List
 - [ ] Number of Islands
 
 ### Bit Manipulation
