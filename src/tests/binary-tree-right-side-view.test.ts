@@ -32,6 +32,6 @@ describe('binary-tree-right-side-view', () => {
       new TreeNode(3)
     )
     const result = binaryTreeRightSideView(root)
-    expect(result).toEqual([1, 3, 8])
+    expect(result).toEqual([1, 3, 4, 8])
   })
 })
