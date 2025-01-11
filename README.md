@@ -79,12 +79,12 @@
 - [x] Insert into a Binary Search Tree
 - [x] Delete Node in a BST
 - [ ] Binary Search Tree Map
-- [ ] Invert Binary Tree
-- [ ] Maximum Depth of Binary Tree
+- [x] Invert Binary Tree
+- [x] Maximum Depth of Binary Tree
 - [ ] Diameter of Binary Tree
 - [ ] Balanced Binary Tree
-- [ ] Same Tree
-- [ ] Subtree of Another Tree
+- [x] Same Tree
+- [x] Subtree of Another Tree
 - [ ] Lowest Common Ancestor of a Binary Search Tree
 - [x] Binary Tree Level Order Traversal
 - [ ] Binary Tree Right Side View
