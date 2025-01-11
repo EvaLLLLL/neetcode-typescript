@@ -36,7 +36,7 @@
 
 - [x] Best Time to Buy and Sell Stock
 - [x] Longest Substring Without Repeating Characters
-- [ ] Longest Repeating Character Replacement
+- [x] Longest Repeating Character Replacement
 - [ ] Permutation In String
 - [ ] Minimum Window Substring
 - [ ] Sliding Window Maximum
