@@ -38,7 +38,7 @@
 - [x] Longest Substring Without Repeating Characters
 - [x] Longest Repeating Character Replacement
 - [ ] Permutation In String
-- [ ] Minimum Window Substring
+- [x] Minimum Window Substring
 - [ ] Sliding Window Maximum
 
 ### Linked List
