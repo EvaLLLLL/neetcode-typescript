@@ -120,7 +120,7 @@
 - [ ] Kth Largest Element in a Stream
 - [ ] Last Stone Weight
 - [ ] K Closest Points to Origin
-- [ ] Kth Largest Element In An Array
+- [x] Kth Largest Element In An Array
 - [ ] Task Scheduler
 - [ ] Design Twitter
 - [ ] Find Median From Data Stream
