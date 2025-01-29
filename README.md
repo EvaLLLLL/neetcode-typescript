@@ -102,7 +102,7 @@
 - [x] Combinations
 - [ ] Combination Sum
 - [ ] Combination Sum II
-- [ ] Permutations
+- [x] Permutations
 - [x] Subsets II
 - [ ] Word Search
 - [ ] Palindrome Partitioning
