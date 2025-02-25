@@ -70,7 +70,7 @@
 - [ ] Koko Eating Bananas
 - [ ] Find Minimum In Rotated Sorted Array
 - [x] Search In Rotated Sorted Array
-- [ ] Time Based Key Value Store
+- [x] Time Based Key Value Store
 - [ ] Median of Two Sorted Arrays
 
 ### Trees
