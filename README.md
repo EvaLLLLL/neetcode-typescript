@@ -67,7 +67,7 @@
 - [x] Binary Search
 - [x] Search a 2D Matrix
 - [x] Binary Tree Right Side View
-- [ ] Koko Eating Bananas
+- [x] Koko Eating Bananas
 - [ ] Find Minimum In Rotated Sorted Array
 - [x] Search In Rotated Sorted Array
 - [x] Time Based Key Value Store
