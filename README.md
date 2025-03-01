@@ -128,7 +128,7 @@
 ### Dynamic Programming
 
 - [x] Climbing Stairs
-- [ ] Min Cost Climbing Stairs
+- [x] Min Cost Climbing Stairs
 
 ### Graphs
 
