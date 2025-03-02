@@ -130,6 +130,7 @@
 
 - [x] Climbing Stairs
 - [x] Min Cost Climbing Stairs
+- [x] Longest Increasing Subsequence
 
 ### Graphs
 
