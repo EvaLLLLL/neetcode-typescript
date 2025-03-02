@@ -2,28 +2,24 @@ export function combinationTargetSum(
   nums: number[],
   target: number
 ): number[][] {
-  nums.sort((a, b) => a - b)
-
-  let res: number[][] = []
   let cur: number[] = []
+  let res: number[][] = []
 
-  function dfs(i: number) {
-    const total = cur.reduce((a, b) => a + b, 0)
-    if (total === target) {
+  function backtrack(i: number, t: number) {
+    if (t === 0) {
       res.push([...cur])
+    } else if (t < 0 || i >= nums.length) {
       return
-    }
+    } else {
+      cur.push(nums[i])
+      backtrack(i, t - nums[i])
 
-    for (let j = i; j < nums.length; j++) {
-      if (total + nums[j] > target) return
-
-      cur.push(nums[j])
-      dfs(j)
       cur.pop()
+      backtrack(i + 1, t)
     }
   }
 
-  dfs(0)
+  backtrack(0, target)
 
   return res
 }
