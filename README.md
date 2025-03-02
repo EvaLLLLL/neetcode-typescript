@@ -83,7 +83,7 @@
 - [x] Invert Binary Tree
 - [x] Maximum Depth of Binary Tree
 - [ ] Diameter of Binary Tree
-- [ ] Balanced Binary Tree
+- [x] Balanced Binary Tree
 - [x] Same Tree
 - [x] Subtree of Another Tree
 - [ ] Lowest Common Ancestor of a Binary Search Tree
