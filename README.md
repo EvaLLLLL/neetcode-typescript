@@ -142,3 +142,8 @@
 - [x] Number of One Bits
 - [x] Counting Bits
 - [x] Reverse Bits
+
+### Kadane's Algorithm
+
+- [x] Maximum Subarray
+- [ ] Maximum Product Subarray
