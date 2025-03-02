@@ -146,4 +146,4 @@
 ### Kadane's Algorithm
 
 - [x] Maximum Subarray
-- [ ] Maximum Product Subarray
+- [x] Maximum Product Subarray
