@@ -102,7 +102,7 @@
 - [x] Subsets
 - [x] Combinations
 - [x] Combination Sum
-- [ ] Combination Sum II
+- [x] Combination Sum II
 - [x] Permutations
 - [x] Subsets II
 - [ ] Word Search
