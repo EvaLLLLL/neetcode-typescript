@@ -104,6 +104,7 @@
 - [x] Combination Sum
 - [x] Combination Sum II
 - [x] Permutations
+- [x] Permutations II
 - [x] Subsets II
 - [ ] Word Search
 - [ ] Palindrome Partitioning
