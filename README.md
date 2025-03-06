@@ -106,7 +106,7 @@
 - [x] Permutations
 - [x] Permutations II
 - [x] Subsets II
-- [ ] Word Search
+- [x] Word Search
 - [ ] Palindrome Partitioning
 - [ ] Letter Combinations of a Phone Number
 - [ ] N Queens
