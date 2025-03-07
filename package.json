@@ -4,12 +4,14 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "gen": "npx tsx --tsconfig tsconfig.json src/scripts/generate.ts"
+    "gen": "npx tsx --tsconfig tsconfig.json src/scripts/generate.ts",
+    "format": "pnpm exec prettier ./src/ --write"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.1",
     "jest": "^29.7.0",
+    "prettier": "3.5.3",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"

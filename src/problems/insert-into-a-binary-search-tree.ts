@@ -9,7 +9,10 @@ export class TreeNode {
   }
 }
 
-export function insertIntoBST(root: TreeNode | null, val: number): TreeNode | null {
+export function insertIntoBST(
+  root: TreeNode | null,
+  val: number
+): TreeNode | null {
   if (!root) {
     return new TreeNode(val)
   }

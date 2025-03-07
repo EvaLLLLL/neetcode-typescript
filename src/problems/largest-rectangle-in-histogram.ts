@@ -1,3 +1,3 @@
 export function largestRectangleInHistogram() {
-    // TODO: Implement your solution here
+  // TODO: Implement your solution here
 }
