@@ -12,7 +12,7 @@ export function linkedListCycleDetection(head: ListNode | null) {
   let fast = head
 
   while (fast && fast.next) {
-    slow = slow?.next || null
+    slow = slow!.next
     fast = fast.next.next
 
     if (fast === slow) return true

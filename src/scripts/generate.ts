@@ -29,7 +29,7 @@ describe('{{fileName}}', () => {
     });
 });`
 
-function generateFiles(fileName: string, noTest: boolean) {
+function generateFiles(fileName: string, withTest: boolean) {
   if (!fileName) {
     console.error('Please provide a file name!')
     process.exit(1)
@@ -54,7 +54,7 @@ function generateFiles(fileName: string, noTest: boolean) {
   fs.writeFileSync(problemPath, problemContent)
   console.log(`✅ Created problem file: ${problemPath}`)
 
-  if (!noTest) {
+  if (withTest) {
     fs.mkdirSync(path.dirname(testPath), { recursive: true })
 
     const testContent = testTemplate
@@ -66,5 +66,5 @@ function generateFiles(fileName: string, noTest: boolean) {
 }
 
 const fileName = process.argv[2]
-const noTest = process.argv[3] === '--no-test'
-generateFiles(fileName, noTest)
+const withTest = process.argv[3] === '--with-test'
+generateFiles(fileName, withTest)
