@@ -142,6 +142,7 @@
 - [x] Matrix BFS
 - [ ] Adjacency List
 - [x] Shortest Path in Binary Matrix
+- [x] Rotting Fruit
 - [x] Number of Islands
 - [x] Max Area of Island
 
