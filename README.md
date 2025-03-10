@@ -141,7 +141,7 @@
 - [x] Matrix DFS
 - [ ] Matrix BFS
 - [ ] Adjacency List
-- [ ] Number of Islands
+- [x] Number of Islands
 
 ### Bit Manipulation
 
