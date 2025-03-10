@@ -141,6 +141,7 @@
 - [x] Matrix DFS
 - [x] Matrix BFS
 - [ ] Adjacency List
+- [x] Shortest Path in Binary Matrix
 - [x] Number of Islands
 - [x] Max Area of Island
 
