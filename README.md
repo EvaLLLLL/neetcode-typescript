@@ -139,7 +139,7 @@
 ### Graphs
 
 - [x] Matrix DFS
-- [ ] Matrix BFS
+- [x] Matrix BFS
 - [ ] Adjacency List
 - [x] Number of Islands
 - [x] Max Area of Island
