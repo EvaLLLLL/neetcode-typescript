@@ -146,7 +146,7 @@
 - [x] Number of Islands
 - [x] Max Area of Island
 - [x] Clone Graph
-- [ ] Islands and Treasure
+- [x] Islands and Treasure
 
 ### Bit Manipulation
 
