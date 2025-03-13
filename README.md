@@ -54,7 +54,7 @@
 - [x] Remove Nth Node From End of List
 - [ ] Copy List With Random Pointer
 - [x] Add Two Numbers
-- [ ] Find The Duplicate Number
+- [x] Find The Duplicate Number
 - [ ] LRU Cache
 - [ ] Merge K Sorted Lists
 - [ ] Reverse Nodes In K Group
