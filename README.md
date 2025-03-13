@@ -52,7 +52,7 @@
 - [x] Maximum Twin Sum of a Linked List
 - [x] Reorder List
 - [x] Remove Nth Node From End of List
-- [ ] Copy List With Random Pointer
+- [x] Copy List With Random Pointer
 - [x] Add Two Numbers
 - [x] Find The Duplicate Number
 - [ ] LRU Cache
