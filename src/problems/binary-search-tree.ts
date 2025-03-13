@@ -1,13 +1,13 @@
-export class TreeNode {
+export class _TreeNode {
   key: number
   val: number
-  left: TreeNode | null
-  right: TreeNode | null
+  left: _TreeNode | null
+  right: _TreeNode | null
   constructor(
     key: number,
     val: number,
-    left: TreeNode | null = null,
-    right: TreeNode | null = null
+    left: _TreeNode | null = null,
+    right: _TreeNode | null = null
   ) {
     this.key = key
     this.val = val
@@ -17,13 +17,13 @@ export class TreeNode {
 }
 
 export class TreeMap {
-  root: TreeNode | null
+  root: _TreeNode | null
   constructor() {
     this.root = null
   }
 
   insert(key: number, val: number) {
-    let newNode = new TreeNode(key, val)
+    let newNode = new _TreeNode(key, val)
     if (!this.root) {
       this.root = newNode
       return
@@ -51,7 +51,7 @@ export class TreeMap {
   }
 
   get(key: number): number {
-    let curr: TreeNode | null = this.root
+    let curr: _TreeNode | null = this.root
     while (curr) {
       if (key > curr.key) {
         curr = curr.right
@@ -72,7 +72,7 @@ export class TreeMap {
   }
 
   getMax(): number {
-    let curr: TreeNode | null = this.root
+    let curr: _TreeNode | null = this.root
 
     while (curr && curr.right) {
       curr = curr.right
@@ -85,7 +85,7 @@ export class TreeMap {
     this.root = this.removeHelper(this.root, key)
   }
 
-  removeHelper(node: TreeNode | null, key: number): TreeNode | null {
+  removeHelper(node: _TreeNode | null, key: number): _TreeNode | null {
     if (!node) {
       return null
     }
@@ -110,7 +110,7 @@ export class TreeMap {
     return node
   }
 
-  findMin(node: TreeNode | null): TreeNode | null {
+  findMin(node: _TreeNode | null): _TreeNode | null {
     while (node && node.left) {
       node = node.left
     }
@@ -120,7 +120,7 @@ export class TreeMap {
   getInorderKeys(): number[] {
     let res: number[] = []
 
-    function inorderKeys(node: TreeNode | null, arr: number[]) {
+    function inorderKeys(node: _TreeNode | null, arr: number[]) {
       if (!node) return
 
       inorderKeys(node.left, arr)

@@ -1,4 +1,4 @@
-## neetcode.io typescript solutions
+## neetcode typescript solutions
 
 ### Arrays
 
@@ -85,7 +85,7 @@
 - [ ] Binary Search Tree Map
 - [x] Invert Binary Tree
 - [x] Maximum Depth of Binary Tree
-- [ ] Diameter of Binary Tree
+- [x] Diameter of Binary Tree
 - [x] Balanced Binary Tree
 - [x] Same Tree
 - [x] Subtree of Another Tree
