@@ -1,24 +1,16 @@
-export class Node {
-  val: number
-  neighbors: Node[]
+import { GraphNode } from '../types/graph-node'
 
-  constructor(val?: number, neighbors?: Node[]) {
-    this.val = val === undefined ? 0 : val
-    this.neighbors = neighbors === undefined ? [] : neighbors
-  }
-}
-
-export function cloneGraph(node: Node | null): Node | null {
+export function cloneGraph(node: GraphNode | null): GraphNode | null {
   if (!node) return null
 
-  const oldToNew = new Map<number, Node>()
+  const oldToNew = new Map<number, GraphNode>()
 
-  const dfsClone = (n: Node) => {
+  const dfsClone = (n: GraphNode) => {
     if (oldToNew.has(n.val)) {
       return oldToNew.get(n.val)!
     }
 
-    const copy = new Node(n.val)
+    const copy = new GraphNode(n.val)
     oldToNew.set(copy.val, copy)
 
     for (let nei of n.neighbors) {

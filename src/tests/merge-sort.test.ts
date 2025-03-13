@@ -1,4 +1,5 @@
-import { mergeSort, Pair } from '../problems/merge-sort'
+import { mergeSort } from '../problems/merge-sort'
+import { Pair } from '../types/pair'
 
 describe('merge-sort', () => {
   test('case 1: sort key-value pairs with unique keys', () => {

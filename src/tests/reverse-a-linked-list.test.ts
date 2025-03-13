@@ -1,8 +1,8 @@
 import {
   reverseALinkedListRecursion,
-  reverseALinkedListIteration,
-  ListNode
+  reverseALinkedListIteration
 } from '../problems/reverse-a-linked-list'
+import { ListNode } from '../types/list-node'
 
 describe('reverse-a-linked-list', () => {
   test('case 1', () => {

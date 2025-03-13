@@ -1,7 +1,5 @@
-import {
-  removeNodeFromEndOfLinkedList,
-  ListNode
-} from '../problems/remove-node-from-end-of-linked-list'
+import { removeNodeFromEndOfLinkedList } from '../problems/remove-node-from-end-of-linked-list'
+import { ListNode } from '../types/list-node'
 
 describe('remove-node-from-end-of-linked-list', () => {
   test('removes 2nd node from end of list [1,2,3,4,5]', () => {

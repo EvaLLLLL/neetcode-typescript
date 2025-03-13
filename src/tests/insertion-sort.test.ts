@@ -1,4 +1,5 @@
-import { insertionSort, Pair } from '../problems/insertion-sort'
+import { insertionSort } from '../problems/insertion-sort'
+import { Pair } from '../types/pair'
 
 describe('insertion-sort', () => {
   test('case 1', () => {

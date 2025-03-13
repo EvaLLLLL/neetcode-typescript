@@ -1,4 +1,5 @@
-import { deleteNode, TreeNode } from '../problems/delete-node-in-a-bst'
+import { deleteNode } from '../problems/delete-node-in-a-bst'
+import { TreeNode } from '../types/tree-node'
 
 describe('delete-node-in-a-bst', () => {
   test('case 1', () => {

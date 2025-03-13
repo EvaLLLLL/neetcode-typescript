@@ -1,12 +1,4 @@
-export class Pair {
-  key: number
-  value: string
-
-  constructor(key = 0, value: string) {
-    this.key = key
-    this.value = value
-  }
-}
+import { Pair } from '../types/pair'
 
 export function insertionSort(pairs: Pair[]) {
   const n = pairs.length

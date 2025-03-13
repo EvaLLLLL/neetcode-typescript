@@ -1,7 +1,5 @@
-import {
-  kthSmallestIntegerInBst,
-  TreeNode
-} from '../problems/kth-smallest-integer-in-bst'
+import { kthSmallestIntegerInBst } from '../problems/kth-smallest-integer-in-bst'
+import { TreeNode } from '../types/tree-node'
 
 describe('kth-smallest-integer-in-bst', () => {
   test('case 1', () => {

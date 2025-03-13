@@ -1,7 +1,5 @@
-import {
-  maximumTwinSumOfALinkedList,
-  ListNode
-} from '../problems/maximum-twin-sum-of-a-linked-list'
+import { maximumTwinSumOfALinkedList } from '../problems/maximum-twin-sum-of-a-linked-list'
+import { ListNode } from '../types/list-node'
 
 describe('maximum-twin-sum-of-a-linked-list', () => {
   test('case 1: [5,4,2,1]', () => {

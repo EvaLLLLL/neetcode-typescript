@@ -1,7 +1,5 @@
-import {
-  linkedListCycleDetection,
-  ListNode
-} from '../problems/linked-list-cycle-detection'
+import { linkedListCycleDetection } from '../problems/linked-list-cycle-detection'
+import { ListNode } from '../types/list-node'
 
 describe('linked-list-cycle-detection', () => {
   test('case 1', () => {

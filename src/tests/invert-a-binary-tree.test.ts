@@ -1,4 +1,5 @@
-import { invertABinaryTree, TreeNode } from '../problems/invert-a-binary-tree'
+import { invertABinaryTree } from '../problems/invert-a-binary-tree'
+import { TreeNode } from '../types/tree-node'
 
 describe('invert-a-binary-tree', () => {
   test('case 1', () => {

@@ -1,7 +1,5 @@
-import {
-  binaryTreeRightSideView,
-  TreeNode
-} from '../problems/binary-tree-right-side-view'
+import { TreeNode } from '../types/tree-node'
+import { binaryTreeRightSideView } from '../problems/binary-tree-right-side-view'
 
 describe('binary-tree-right-side-view', () => {
   test('case 1', () => {

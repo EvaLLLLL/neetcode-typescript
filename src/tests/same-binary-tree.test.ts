@@ -1,4 +1,5 @@
-import { sameBinaryTree, TreeNode } from '../problems/same-binary-tree'
+import { sameBinaryTree } from '../problems/same-binary-tree'
+import { TreeNode } from '../types/tree-node'
 
 describe('same-binary-tree', () => {
   test('case 1', () => {

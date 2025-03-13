@@ -1,7 +1,5 @@
-import {
-  levelOrderTraversalOfBinaryTree,
-  TreeNode
-} from '../problems/level-order-traversal-of-binary-tree'
+import { levelOrderTraversalOfBinaryTree } from '../problems/level-order-traversal-of-binary-tree'
+import { TreeNode } from '../types/tree-node'
 
 describe('level-order-traversal-of-binary-tree', () => {
   test('case 1', () => {

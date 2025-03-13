@@ -1,4 +1,5 @@
-import { quickSort, Pair } from '../problems/quick-sort'
+import { quickSort } from '../problems/quick-sort'
+import { Pair } from '../types/pair'
 
 describe('quick-sort', () => {
   test('case 1', () => {

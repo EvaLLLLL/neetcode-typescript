@@ -1,4 +1,5 @@
-import { reorderLinkedList, ListNode } from '../problems/reorder-linked-list'
+import { reorderLinkedList } from '../problems/reorder-linked-list'
+import { ListNode } from '../types/list-node'
 
 describe('reorder-linked-list', () => {
   test('case 1: list of length 4', () => {

@@ -1,7 +1,5 @@
-import {
-  mergeTwoSortedLinkedLists,
-  ListNode
-} from '../problems/merge-two-sorted-linked-lists'
+import { mergeTwoSortedLinkedLists } from '../problems/merge-two-sorted-linked-lists'
+import { ListNode } from '../types/list-node'
 
 describe('merge-two-sorted-linked-lists', () => {
   test('case 1: merge two non-empty lists', () => {

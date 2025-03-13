@@ -1,7 +1,5 @@
-import {
-  subtreeOfABinaryTree,
-  TreeNode
-} from '../problems/subtree-of-a-binary-tree'
+import { subtreeOfABinaryTree } from '../problems/subtree-of-a-binary-tree'
+import { TreeNode } from '../types/tree-node'
 
 describe('subtree-of-a-binary-tree', () => {
   test('case 1', () => {

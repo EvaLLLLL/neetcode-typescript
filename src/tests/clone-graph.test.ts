@@ -1,16 +1,17 @@
-import { cloneGraph, Node } from '../problems/clone-graph'
+import { cloneGraph } from '../problems/clone-graph'
+import { GraphNode } from '../types/graph-node'
 
 describe('clone-graph', () => {
   test('case 1: single node', () => {
-    const node = new Node(1)
+    const node = new GraphNode(1)
     const cloned = cloneGraph(node)
     expect(cloned?.val).toBe(1)
     expect(cloned?.neighbors.length).toBe(0)
   })
 
   test('case 2: two connected nodes', () => {
-    const node1 = new Node(1)
-    const node2 = new Node(2)
+    const node1 = new GraphNode(1)
+    const node2 = new GraphNode(2)
     node1.neighbors = [node2]
     node2.neighbors = [node1]
 
@@ -23,10 +24,10 @@ describe('clone-graph', () => {
   })
 
   test('case 3: cycle of 4 nodes', () => {
-    const node1 = new Node(1)
-    const node2 = new Node(2)
-    const node3 = new Node(3)
-    const node4 = new Node(4)
+    const node1 = new GraphNode(1)
+    const node2 = new GraphNode(2)
+    const node3 = new GraphNode(3)
+    const node4 = new GraphNode(4)
 
     node1.neighbors = [node2, node4]
     node2.neighbors = [node1, node3]

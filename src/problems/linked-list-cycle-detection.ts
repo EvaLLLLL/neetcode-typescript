@@ -1,11 +1,4 @@
-export class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val = 0, next = null) {
-    this.val = val
-    this.next = next
-  }
-}
+import { ListNode } from '../types/list-node'
 
 export function linkedListCycleDetection(head: ListNode | null) {
   let slow = head

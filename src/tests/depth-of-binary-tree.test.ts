@@ -1,4 +1,5 @@
-import { depthOfBinaryTree, TreeNode } from '../problems/depth-of-binary-tree'
+import { depthOfBinaryTree } from '../problems/depth-of-binary-tree'
+import { TreeNode } from '../types/tree-node'
 
 describe('depth-of-binary-tree', () => {
   test('case 1', () => {

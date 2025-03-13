@@ -1,4 +1,5 @@
-import { pathSum, TreeNode } from '../problems/path-sum'
+import { pathSum } from '../problems/path-sum'
+import { TreeNode } from '../types/tree-node'
 
 describe('path-sum', () => {
   test('case 1', () => {

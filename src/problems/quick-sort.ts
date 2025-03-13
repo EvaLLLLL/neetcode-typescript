@@ -1,11 +1,4 @@
-export class Pair {
-  key: number
-  value: string
-  constructor(key: number, value: string) {
-    this.key = key
-    this.value = value
-  }
-}
+import { Pair } from '../types/pair'
 
 export function quickSort(pairs: Pair[]) {
   quickSortHelper(pairs, 0, pairs.length - 1)
