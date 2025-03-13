@@ -50,8 +50,8 @@
 - [x] Linked List Cycle II
 - [x] Middle of the Linked List
 - [x] Maximum Twin Sum of a Linked List
-- [ ] Reorder List
-- [ ] Remove Nth Node From End of List
+- [x] Reorder List
+- [x] Remove Nth Node From End of List
 - [ ] Copy List With Random Pointer
 - [ ] Add Two Numbers
 - [ ] Find The Duplicate Number
