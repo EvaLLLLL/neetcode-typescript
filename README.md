@@ -123,7 +123,7 @@
 ### Heap / Priority Queue
 
 - [ ] Design Min Heap
-- [ ] Kth Largest Element in a Stream
+- [x] Kth Largest Element in a Stream
 - [ ] Last Stone Weight
 - [ ] K Closest Points to Origin
 - [x] Kth Largest Element In An Array
