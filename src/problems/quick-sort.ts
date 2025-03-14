@@ -13,17 +13,13 @@ export function quickSortHelper(pairs: Pair[], s: number, e: number) {
 
   for (let i = s; i < e; i++) {
     if (pairs[i].key < pivot.key) {
-      let temp = pairs[left]
-      pairs[left] = pairs[i]
-      pairs[i] = temp
+      ;[pairs[left], pairs[i]] = [pairs[i], pairs[left]]
       left++
     }
   }
 
   if (left !== e) {
-    let temp = pairs[left]
-    pairs[left] = pivot
-    pairs[e] = temp
+    ;[pairs[left], pairs[e]] = [pairs[e], pairs[left]]
   }
 
   quickSortHelper(pairs, s, left - 1)
