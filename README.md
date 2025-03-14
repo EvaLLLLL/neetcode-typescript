@@ -111,7 +111,7 @@
 - [x] Subsets II
 - [x] Word Search
 - [ ] Palindrome Partitioning
-- [ ] Letter Combinations of a Phone Number
+- [x] Letter Combinations of a Phone Number
 - [ ] N Queens
 
 ### Tries
