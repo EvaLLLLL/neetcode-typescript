@@ -131,10 +131,11 @@
 - [ ] Design Twitter
 - [ ] Find Median From Data Stream
 
-### Dynamic Programming
+### 1-D Dynamic Programming
 
 - [x] Climbing Stairs
 - [x] Min Cost Climbing Stairs
+- [x] House Robber
 - [x] Longest Increasing Subsequence
 
 ### Graphs

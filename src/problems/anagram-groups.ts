@@ -1,14 +1,19 @@
 export function anagramGroups(strs: string[]): string[][] {
-  const map = new Map<string, string[]>()
+  let res: { [key: string]: string[] } = {}
 
-  for (let str of strs) {
-    const sorted = str.split('').sort().join()
-    if (!map.has(sorted)) {
-      map.set(sorted, [str])
-    } else {
-      map.set(sorted, [...(map.get(sorted) || []), str])
+  for (let s of strs) {
+    const count = new Array(26).fill(0)
+
+    for (let c of s) {
+      count[c.charCodeAt(0) - 'a'.charCodeAt(0)] += 1
     }
+
+    const key = count.join(',')
+    if (!res[key]) {
+      res[key] = []
+    }
+    res[key].push(s)
   }
 
-  return Array.from(map.values())
+  return Object.values(res)
 }

@@ -5,20 +5,18 @@ export default function longestConsecutiveSequence(nums: number[]): number {
     return !set.has(n - 1)
   }
 
-  let result = 0
+  let res = 0
 
-  for (let num of nums) {
+  for (let num of set) {
     if (isStart(num)) {
       let i = 1
       while (set.has(num + i)) {
         i++
       }
 
-      if (i > result) {
-        result = i
-      }
+      res = Math.max(res, i)
     }
   }
 
-  return result
+  return res
 }
