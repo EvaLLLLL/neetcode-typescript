@@ -129,7 +129,7 @@
 - [x] Kth Largest Element In An Array
 - [ ] Task Scheduler
 - [ ] Design Twitter
-- [ ] Find Median From Data Stream
+- [x] Find Median From Data Stream
 
 ### 1-D Dynamic Programming
 
@@ -160,3 +160,8 @@
 
 - [x] Maximum Subarray
 - [x] Maximum Product Subarray
+
+### Others
+- [x] Unique 3-Digit Even Numbers
+- [x] Design Spreadsheet
+- [ ] Longest Common Prefix of K Strings After Removal
