@@ -75,6 +75,7 @@
 - [x] Find Minimum In Rotated Sorted Array
 - [x] Search In Rotated Sorted Array
 - [x] Time Based Key Value Store
+- [x] Lowest Common Ancestor in Binary Search Tree
 - [ ] Median of Two Sorted Arrays
 
 ### Trees
