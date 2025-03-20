@@ -55,7 +55,7 @@
 - [x] Copy List With Random Pointer
 - [x] Add Two Numbers
 - [x] Find The Duplicate Number
-- [ ] LRU Cache
+- [x] LRU Cache
 - [ ] Merge K Sorted Lists
 - [ ] Reverse Nodes In K Group
 
