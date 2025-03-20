@@ -124,7 +124,7 @@
 - [ ] Design Min Heap
 - [x] Kth Largest Element in a Stream
 - [x] Last Stone Weight
-- [ ] K Closest Points to Origin
+- [x] K Closest Points to Origin
 - [x] Kth Largest Element In An Array
 - [ ] Task Scheduler
 - [ ] Design Twitter
