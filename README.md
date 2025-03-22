@@ -109,7 +109,7 @@
 - [x] Permutations II
 - [x] Subsets II
 - [x] Word Search
-- [ ] Palindrome Partitioning
+- [x] Palindrome Partitioning
 - [x] Letter Combinations of a Phone Number
 - [ ] N Queens
 
