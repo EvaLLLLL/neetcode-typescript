@@ -94,7 +94,7 @@
 - [x] Binary Tree Level Order Traversal
 - [x] Count Good Nodes In Binary Tree
 - [x] Kth Smallest Element In a Bst
-- [ ] Construct Binary Tree From Preorder And Inorder Traversal
+- [x] Construct Binary Tree From Preorder And Inorder Traversal
 - [ ] Binary Tree Maximum Path Sum
 - [ ] Serialize And Deserialize Binary Tree
 
