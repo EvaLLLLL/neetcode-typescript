@@ -126,7 +126,7 @@
 - [x] Last Stone Weight
 - [x] K Closest Points to Origin
 - [x] Kth Largest Element In An Array
-- [ ] Task Scheduler
+- [x] Task Scheduler
 - [ ] Design Twitter
 - [x] Find Median From Data Stream
 
