@@ -127,7 +127,7 @@
 - [x] K Closest Points to Origin
 - [x] Kth Largest Element In An Array
 - [x] Task Scheduler
-- [ ] Design Twitter
+- [x] Design Twitter
 - [x] Find Median From Data Stream
 
 ### 1-D Dynamic Programming
