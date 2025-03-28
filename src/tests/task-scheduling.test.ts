@@ -28,6 +28,6 @@ describe('task-scheduling', () => {
   test('case 5: single task type', () => {
     const tasks = ['A', 'A', 'A', 'A']
     const n = 3
-    expect(taskScheduling(tasks, n)).toBe(10)
+    expect(taskScheduling(tasks, n)).toBe(13)
   })
 })
