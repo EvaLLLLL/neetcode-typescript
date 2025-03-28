@@ -126,8 +126,8 @@
 - [x] Last Stone Weight
 - [x] K Closest Points to Origin
 - [x] Kth Largest Element In An Array
-- [x] Task Scheduler
-- [x] Design Twitter
+- [ ] Task Scheduler
+- [ ] Design Twitter
 - [x] Find Median From Data Stream
 
 ### 1-D Dynamic Programming
@@ -148,6 +148,7 @@
 - [x] Max Area of Island
 - [x] Clone Graph
 - [x] Islands and Treasure
+- [ ] Pacific Atlantic Water Flow
 
 ### Bit Manipulation
 
