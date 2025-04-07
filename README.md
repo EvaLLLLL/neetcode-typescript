@@ -187,6 +187,7 @@
 - [x] House Robber II
 - [x] Maximum Product Subarray
 - [x] Longest Increasing Subsequence
+- [x] Longest Palindromic Substring
 
 </details>
 
