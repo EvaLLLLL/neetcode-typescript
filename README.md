@@ -188,6 +188,7 @@
 - [x] Maximum Product Subarray
 - [x] Longest Increasing Subsequence
 - [x] Longest Palindromic Substring
+- [x] Palindromic Substrings
 
 </details>
 
