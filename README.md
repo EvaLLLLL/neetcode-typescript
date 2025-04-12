@@ -189,6 +189,7 @@
 - [x] Longest Increasing Subsequence
 - [x] Longest Palindromic Substring
 - [x] Palindromic Substrings
+- [x] 0 / 1 Knapsack
 
 </details>
 
