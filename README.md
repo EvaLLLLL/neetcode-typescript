@@ -190,6 +190,7 @@
 - [x] Longest Palindromic Substring
 - [x] Palindromic Substrings
 - [x] 0 / 1 Knapsack
+- [x] Decode Ways
 
 </details>
 
